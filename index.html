@@ -1,50 +1,297 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>SAM | Home</title>
-	<link rel="icon" type="image/x-icon" href="logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>SAM CODING.</title>
+
+    <!-- Logo -->
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+
+    <!-- CSS External Style -->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://kit.fontawesome.com/a821ac8665.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 4 CDN Links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External Links -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/d992fda3da.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<main>
-		<!-- Container -->
-		<div class="container">
-			<!-- Navigation Section -->
-			<div class="header_nav">
-				<img src="logo.png" class="logo">
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="">Services</a></li>
-						<li><a href="">Projects</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-			<!-- Body Section -->
-			<div class="main_body">
-				<div class="part-1"><!-- 🙏 -->
-					<h1>Hi I'm,<span class="wave">👋</span></h1>
-					<h2>Soumya Prakash Sahu</h2>
-					<p>I am a developer that codes. I work on android applications<br>
-					 and desktop application.</p>
-					 <p><b>My target </b>is to create user friendly application<br>
-					  with a clean code. And try to give best experience.</p><br>
-					<button class="about-btn">About Me</button>
-				</div>
-				<div class="part-2">
-					<img src="frame3.png" class="photo">
-				</div>
-			</div>
-			<!-- Icons Section -->
-			<div class="icon-cont">
-				<i class="fab fa-linkedin-in"></i>
-				<i class="fab fa-google"></i>
-				<i class="fab fa-github"></i>
-			</div>		
-		</div>
-	</main>
+    <div class="">
+        <!-- Header Nav Bar Section -->
+        <header id="header">
+            <!--Navbar-->
+            <div class="spacerforbar"></div>
+            <div class="navbar">
+                <img src="SAM CODING DARK.png" class="img-fluid" alt="SAM CODING BACKGROUND" width="200px">
+                <ul class="nav">
+                    <li class="nav-item div-link">
+                        <a class="nav-link" href="#home-page">Home</a>
+                    </li>
+                    <li class="nav-item div-link">
+                        <a class="nav-link" href="#about-page">About</a>
+                    </li>
+                    <li class="nav-item div-link">
+                        <a class="nav-link" href="#service-page">Services</a>
+                    </li>
+                    <li class="nav-item div-link">
+                        <a class="nav-link" href="#skills-page">Skills</a>
+                    </li>
+                    <li class="nav-item div-link">
+                        <a class="nav-link" href="#projects-page">Projects</a>
+                    </li>
+                    <li class="nav-item div-link">
+                        <a class="nav-link" href="#contact-page">Contact</a>
+                    </li>
+                    <li class="nav-item menu">
+                        <a href=""><i class="fa-solid fa-bars-staggered"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="spacerforbar"></div>
+        </header>
+
+        <!-- Home Page -->
+        <div class="home-page" id="home-page">
+            <div class="body-section">
+                <div class="display-home-section">
+                    <h4><strong>こんにちは !</strong>&nbsp; I'm,</h4>
+                    <h3><strong>- <span class="auto-input"></span></strong></h3>
+                    <p>I am a developer that codes.  <u>'My target'</u> is to create user friendly application <br>
+                        with a clean code. And try to give best experience.</p>
+                    <div class="spacer"></div>
+                    <a class="btn-home" href="#about-page">
+                        <span></span>
+                        <span></span> 
+                        <span></span>
+                        <span></span>
+                        About Me &nbsp;<i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                    <!-- Scroller -->
+                    <div class="scroll-ind" id="scrollmouse">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                        <div>
+                            <span class="m_scroll_arrows unu"></span>
+                            <span class="m_scroll_arrows doi"></span>
+                            <span class="m_scroll_arrows trei"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- About Page -->
+        <div class="about-page" id="about-page"><h1>About page</h1></div>
+
+        <!-- Services Page -->
+        <div class="service-page" id="service-page"><h1>service</h1></div>
+
+        <!-- Skills Page -->
+        <div class="skills-page" id="skills-page"><h1>Skills</h1></div>
+
+        <!-- Projects Page -->
+        <div class="projects-page" id="projects-page">
+            <div class="body-section">
+                <div class="display-projects-section">
+                    <div class="sub-project-section">
+                        <h2 class="head">Projects</h2>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4>Uttarakhand tourism</h4>
+                                        <p>Tag : Travel and toursim</p>
+                                        <p>This is tourist friendly app which have all the details of all the places also some important places.</p>
+                                        <a href="" class="project-link">See Detail Project &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4>E-Assets Manager</h4>
+                                        <p>Tag : Rural Development</p>
+                                        <p>This helps to manage assets details of building such as type, size, area, year of construction, capacity, rooms, labs, maintenance required, etc.</p>
+                                        <a href="" class="project-link">See Detail Project &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4>E-commerce for Artisans</h4>
+                                        <p>Tag : Heritage & Culture</p>
+                                        <p>This helps to manage assets details of building such as type, size, area, year of construction, capacity, rooms, labs, maintenance required, etc.</p>
+                                        <a href="" class="project-link">See Detail Project &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4>Estate</h4>
+                                        <p>Tag : Real-estate</p>
+                                        <p>This is tourist friendly app which have all the details of all the places also some important places.</p>
+                                        <a href="" class="project-link">See Detail Project &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4>MedTech</h4>
+                                        <p>Tag : Medical</p>
+                                        <p>This helps to manage assets details of building such as type, size, area, year of construction, capacity, rooms, labs, maintenance required, etc.</p>
+                                        <a href="" class="project-link">See Detail Project &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4>Netflix</h4>
+                                        <p>Tag : Tv Shows</p>
+                                        <p>This helps to manage assets details of building such as type, size, area, year of construction, capacity, rooms, labs, maintenance required, etc.</p>
+                                        <a href="" class="project-link">See Detail Project &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col"><a href="" style="color: #fff;">See more &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div class="contact-page" id="contact-page">
+            <div class="body-section">
+                <div class="display-contact-section">
+                    <div class="form">
+                        <div class="contact-info">
+                            <h3 class="title">Let's get in touch</h3>
+                            <p class="text">
+                                I’m interested in working with you, especially in 
+                                large projects and ambitious. However, if you have any question or request use 
+                                this form to message me.  
+                            </p>
+                            <div class="info">
+                                <div class="information">
+                                    <i class="icon fa-solid fa-envelope fa-2x"></i>
+                                    <p>soumyaprakashsahu2001@gmail.com</p>
+                                </div>
+                                <div class="information">
+                                    <i class="icon fa-solid fa-map-location-dot fa-2x"></i>
+                                    <p>Bhubaneswar, Odisha</p>
+                                </div>
+                                <div class="information">
+                                    <i class="icon fa-solid fa-phone fa-2x"></i>
+                                    <p>8249461992</p>
+                                </div>
+                            </div>
+                            <div class="social-media">
+                                <p>Contact with me :</p>
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/in/soumya-prakash-sahu-68886921b/" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
+                                    <a href="https://developers.google.com/profile/u/101160475383329939703" target="_blank"><i class="icon fa-brands fa-google"></i></a>
+                                    <a href="https://github.com/SNH-CODING" target="_blank"><i class="icon fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                            <form action="" autocomplete="off">
+                                <h3 class="title">Contact me</h3>
+                                <div class="input-container">
+                                    <input type="text" name="name" class="input">
+                                    <label for="">Name</label>
+                                    <span>Name</span>
+                                </div>
+                                <div class="input-container">
+                                    <input type="email" name="email" class="input">
+                                    <label for="">E-mail</label>
+                                    <span>E-mail</span>
+                                </div>
+                                <div class="input-container">
+                                    <input type="text" name="phone" class="input">
+                                    <label for="">Phone Number</label>
+                                    <span>Phone Number</span>
+                                </div>
+                                <div class="input-container textarea">
+                                    <textarea name="message" class="input"></textarea>
+                                    <label for="">Message</label>
+                                    <span>Message</span>
+                                </div>
+                                <button class="send-btn" type="submit">send <i class="fa-solid fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="page-footer">
+            <div class="footer-copyright text-center py-3">© 2022 Copyright
+                <a href="https://samsnhcoding.netlify.app/">SAM CODING</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var header = document.getElementById("header");
+        var scrollmouse = document.getElementById("scrollmouse");
+        window.onscroll = function(){
+            if(window.pageYOffset > 0){
+                header.classList.add("sticky");
+                scrollmouse.classList.add("scrollmouseeffect");
+            }
+            else{
+                header.classList.remove("sticky");
+                scrollmouse.classList.remove("scrollmouseeffect");
+            }
+        }
+
+        var typed = new Typed(".auto-input", {
+            strings: ["Soumya Prakash Sahu.", "App Developer", "Freelancer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+
+        const inputs = document.querySelectorAll(".input");
+        function focusFunc() {
+            let parent = this.parentNode;
+            parent.classList.add("focus");
+        }
+
+        function blurFunc() {
+            let parent = this.parentNode;
+            if (this.value == "") {
+                parent.classList.remove("focus");
+            }
+        }
+
+        inputs.forEach((input) => {
+            input.addEventListener("focus", focusFunc);
+            input.addEventListener("blur", blurFunc);
+        });
+    </script>
 </body>
 </html>
