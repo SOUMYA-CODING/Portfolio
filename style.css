@@ -187,9 +187,39 @@ header.sticky {
     background: #111111;
 }
 
+.display-service-section{
+    position: relative;
+    margin: 6% 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card .card-body{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 8px 0px #fff;
+}
+
+
+/********** Skill Page **********/
+.skills-page {
+    width: 100%;
+    height: 100vh;
+    background: #111111;
+}
+
+.display-skill-section{
+    position: relative;
+    margin: 6% 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /********** Projects Page **********/
-.skills-page {
+.projects-page {
     width: 100%;
     height: 100vh;
     background: #111111;
@@ -203,15 +233,9 @@ header.sticky {
     align-items: center;
 }
 
-.head {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
 .project-card {
-    width: 400px;
-    height: 250px;
+    width: 410px;
+    height: 260px;
 }
 
 .project-card:hover {
@@ -232,14 +256,6 @@ header.sticky {
     bottom: 0;
     margin-bottom: 20px;
     margin-left: 20px;
-}
-
-
-/********** Projects Page **********/
-.projects-page {
-    width: 100%;
-    height: 100vh;
-    background: #111111;
 }
 
 
@@ -472,8 +488,14 @@ textarea.input {
 }
 
 /********** Footer **********/
-.page-footer {
-    /*background: royalblue;*/
+
+
+/********** Global CSS **********/
+.head {
+    color: #FF4B2B;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 /********** Mouse Scroll **********/
