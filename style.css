@@ -217,9 +217,18 @@ header.sticky {
     align-items: center;
 }
 
-.skills-card{
+.skills-card {
     width: 500px;
     height: 550px;
+}
+
+.skills-card:hover {
+    box-shadow: 0px 0px 8px 0px #fff;
+}
+
+
+.headline {
+    margin-bottom: 15px;
 }
 
 
