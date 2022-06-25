@@ -518,11 +518,23 @@ textarea.input {
 
 /********** Global CSS **********/
 .head {
-    color: #FF4B2B;
-    text-align: center;
+    color: #bdc3c7; /*#FF4B2B*/
+    text-align: left;
     margin-bottom: 25px;
-    text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 1.5em;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.head:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background-color: #f7b733;
 }
 
 /********** Mouse Scroll **********/
