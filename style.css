@@ -2,7 +2,7 @@
 
 * {
     padding: 0;
-    margin: 0;  
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -117,7 +117,6 @@ header.sticky {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*background: #111111;*/
 }
 
 .display-home-section {
@@ -179,25 +178,45 @@ header.sticky {
     background: #111111;
 }
 
-.display-about-section{
+.display-about-section {
     position: relative;
-    margin: 6% 80px;
+    margin: 12% 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-me-description p{
+.about-me-description p {
     color: #fff;
     font-size: 18px;
     letter-spacing: 1.5px;
 }
 
-.btn-group a{
-    color: #fff;
+.btn-group a {
     padding: 10px 50px;
-    background-color: #f79d00;
     margin-right: 5px;
+    border-radius: 5px;
+}
+
+.btn-group a:nth-child(1) {
+    color: #fff;
+    background: #f7b733;
+    text-decoration: none;
+}
+
+.btn-group a:nth-child(1):hover {
+    box-shadow: 0px 0px 8px 0px #f7b733;
+}
+
+.btn-group a:nth-child(2) {
+    color: #fff;
+    background: #000;
+    border: 2px solid #f7b733;
+    text-decoration: none;
+}
+
+.btn-group a:nth-child(2):hover {
+    box-shadow: 0px 0px 8px 0px #f7b733;
 }
 
 
@@ -210,16 +229,52 @@ header.sticky {
 
 .display-service-section {
     position: relative;
-    margin: 6% 80px;
+    margin: 9% 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.service-card .card-body {
-    width: 300px;
-    height: 200px;
-    box-shadow: 0px 0px 8px 0px #fff;
+.service-card {
+    width: 500px;
+    height: 300px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.service-card:nth-child(1){
+    background-color: #1fa2ff;
+    box-shadow: 0px 0px 8px 0px #1fa2ff;
+}
+
+.service-card:nth-child(2){
+    background-color: #45b649;
+    box-shadow: 0px 0px 8px 0px #45b649;
+}
+
+.service-card:nth-child(3){
+    background-color: #dd3e54;
+    box-shadow: 0px 0px 8px 0px #dd3e54;
+}
+
+.service-card p {
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.services-description {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.service-card .card-body .card-title {
+    margin-bottom: 15px;
+}
+
+.service-card .card-body .fa-solid {
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 
@@ -242,6 +297,7 @@ header.sticky {
     width: 500px;
     height: 550px;
     font-weight: 400;
+    box-shadow: 0px 0px 8px 0px #fff;
 }
 
 .headline {
@@ -273,32 +329,32 @@ header.sticky {
 
 .project-card:nth-child(1) {
     background-color: #6c48aa;
-    box-shadow: 0px 0px 12px 0px #6c48aa;
+    box-shadow: 0px 0px 8px 0px #6c48aa;
 }
 
 .project-card:nth-child(2) {
     background-color: #45b649;
-    box-shadow: 0px 0px 12px 0px #45b649;
+    box-shadow: 0px 0px 8px 0px #45b649;
 }
 
 .project-card:nth-child(3) {
     background-color: #f79d00;
-    box-shadow: 0px 0px 12px 0px #f79d00;
+    box-shadow: 0px 0px 8px 0px #f79d00;
 }
 
 .project-card:nth-child(4) {
     background-color: #dd3e54;
-    box-shadow: 0px 0px 12px 0px #dd3e54;
+    box-shadow: 0px 0px 8px 0px #dd3e54;
 }
 
 .project-card:nth-child(5) {
     background-color: #1fa2ff;
-    box-shadow: 0px 0px 12px 0px #1fa2ff;
+    box-shadow: 0px 0px 8px 0px #1fa2ff;
 }
 
 .project-card:nth-child(6) {
     background-color: #203A43;
-    box-shadow: 0px 0px 12px 0px #203A43;
+    box-shadow: 0px 0px 8px 0px #203A43;
 }
 
 .project-link {
