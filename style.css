@@ -220,10 +220,7 @@ header.sticky {
 .skills-card {
     width: 500px;
     height: 550px;
-}
-
-.skills-card:hover {
-    box-shadow: 0px 0px 8px 0px #fff;
+    font-weight: 400;
 }
 
 .headline {
@@ -249,18 +246,38 @@ header.sticky {
 .project-card {
     width: 410px;
     height: 260px;
-}
-
-.project-card:hover {
-    box-shadow: 0px 0px 8px 0px #fff;
-}
-
-.project-tech {
-    margin-right: 5px;
-    padding: 10px 20px;
-    background: royalblue;
     color: #fff;
-    border-radius: 8px;
+    font-weight: 400;
+}
+
+.project-card:nth-child(1) {
+    background-color: #6c48aa;
+    box-shadow: 0px 0px 8px 0px #6c48aa;
+}
+
+.project-card:nth-child(2) {
+    background-color: #45b649;
+    box-shadow: 0px 0px 8px 0px #45b649;
+}
+
+.project-card:nth-child(3) {
+    background-color: #f79d00;
+    box-shadow: 0px 0px 8px 0px #f79d00;
+}
+
+.project-card:nth-child(4) {
+    background-color: #dd3e54;
+    box-shadow: 0px 0px 8px 0px #dd3e54;
+}
+
+.project-card:nth-child(5) {
+    background-color: #1fa2ff;
+    box-shadow: 0px 0px 8px 0px #1fa2ff;
+}
+
+.project-card:nth-child(6) {
+    background-color: #ec008c;
+    box-shadow: 0px 0px 8px 0px #ec008c;
 }
 
 .project-link {
@@ -269,6 +286,11 @@ header.sticky {
     bottom: 0;
     margin-bottom: 20px;
     margin-left: 20px;
+    color: #fff;
+}
+
+.project-link:hover {
+    color: #fff;
 }
 
 
@@ -505,7 +527,8 @@ textarea.input {
 
 /********** Global CSS **********/
 .head {
-    color: #bdc3c7; /*#FF4B2B*/
+    color: #bdc3c7;
+    /*#FF4B2B*/
     text-align: left;
     margin-bottom: 25px;
     letter-spacing: 2px;
