@@ -179,6 +179,27 @@ header.sticky {
     background: #111111;
 }
 
+.display-about-section{
+    position: relative;
+    margin: 6% 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-description p{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.btn-group a{
+    color: #fff;
+    padding: 10px 50px;
+    background-color: #f79d00;
+    margin-right: 5px;
+}
+
 
 /********** Service Page **********/
 .service-page {
