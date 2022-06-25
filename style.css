@@ -227,20 +227,7 @@ header.sticky {
 }
 
 .headline {
-    margin-bottom: 20px;
-    line-height: 1.5em;
-    padding-bottom: 5px;
-    position: relative;
-}
-
-.headline:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    width: 70px;
-    background-color: #111;
+    margin-bottom: 30px;
 }
 
 
