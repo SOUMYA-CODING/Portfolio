@@ -605,7 +605,6 @@ textarea.input {
 /********** Global CSS **********/
 .head {
     color: #bdc3c7;
-    /*#FF4B2B*/
     text-align: left;
     margin-bottom: 25px;
     letter-spacing: 2px;
@@ -623,6 +622,7 @@ textarea.input {
     width: 80px;
     background-color: #f7b733;
 }
+
 
 /********** Mouse Scroll **********/
 .scroll-ind {
