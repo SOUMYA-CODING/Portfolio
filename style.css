@@ -802,12 +802,51 @@ textarea.input {
 /********** Responsive Page **********/
 /* width: 600px  mobile*/
 @media only screen and (max-width: 600px) {
+
+    /********** Home Page Responsive **********/
+
     .home-page {
         background-image: url('bg_mobile.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
+
+    .display-home-section {
+        position: relative;
+        margin: 45% 15px;
+    }
+    
+    .display-home-section h4 {
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .display-home-section p {
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .display-home-section h3 {
+        text-transform: uppercase;
+        color: orange;
+        font-size: 22px;
+    }
+    
+    .links-section {
+        margin: 50px 0px;
+    }
+    
+    .links-section .col i {
+        font-size: 18px;
+        color: #fff;
+        padding: 5px;
+        border-radius: 2px;
+    }
+    
+    .links-section .col i:hover {
+        box-shadow: 0px 0px 8px 0px #fff;
+    }
+
+
+
 
     .div-link {
         display: none;
@@ -815,20 +854,5 @@ textarea.input {
 
     .menu {
         display: block;
-    }
-
-    .display-home-section {
-        position: relative;
-        margin: 0px 0px;
-    }
-
-    .display-home-section h4 {
-        font-size: 20px;
-    }
-
-    .display-home-section h3 {
-        text-transform: uppercase;
-        color: orange;
-        font-size: 25px;
     }
 }
