@@ -29,6 +29,10 @@ html::-webkit-scrollbar-track {
     width: 100%;
 }
 
+.spacer{
+    height: 2vh;
+}
+
 
 /********** Header Nav Bar Section **********/
 header {
@@ -876,6 +880,11 @@ textarea.input {
 
 
     /********** Service Page **********/
+    .service-page{
+        width: 100%;
+        height: 200vh;
+    }
+
     .display-service-section {
         position: relative;
         margin: 10% 15px;
@@ -913,6 +922,11 @@ textarea.input {
 
 
     /********** Skill Page **********/
+    .skills-page{
+        width: 100%;
+        height: 250vh;
+    }
+
     .display-skill-section {
         position: relative;
         margin: 10% 15px;
@@ -922,8 +936,7 @@ textarea.input {
     }
 
     .skills-card {
-        width: 250px;
-        height: 450px;
+        width: 330px;
         font-weight: 400;
         box-shadow: 0px 0px 8px 0px #fff;
     }
