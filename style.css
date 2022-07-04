@@ -946,6 +946,7 @@ textarea.input {
 
     .skills-card {
         width: 100%;
+        height: auto;
         font-weight: 400;
         box-shadow: 0px 0px 8px 0px #fff;
     }
