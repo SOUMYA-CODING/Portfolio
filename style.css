@@ -494,6 +494,10 @@ textarea.input {
     box-shadow: 0px 0px 8px 0px #fff;
 }
 
+.send-btn i{
+    color: black;
+}
+
 .input-container span {
     position: absolute;
     top: 0;
