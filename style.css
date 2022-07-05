@@ -990,6 +990,14 @@ textarea.input {
         height: auto;
     }
 
+    .title{
+        font-size: 20px;
+    }
+
+    .text{
+        font-size: 14px;
+    }
+
     .information {
         display: block;
         font-size: 13px;
@@ -1006,6 +1014,10 @@ textarea.input {
 
     .icon {
         font-size: 20px;
+    }
+
+    .display-contact-section .row .col{
+        width: 100%;
     }
 
     .display-contact-section .row .col:nth-child(1) {
