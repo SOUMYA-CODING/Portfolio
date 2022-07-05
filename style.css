@@ -566,7 +566,7 @@ textarea.input {
 .icon {
     color: #111111;
     width: 24px;
-    margin-right: 0.7rem;
+    font-size: 24px;
 }
 
 .social-media {
@@ -800,7 +800,7 @@ textarea.input {
 
 /********** Responsive Page **********/
 /* width: 600px  mobile*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 
     /********** Mouse Scroll **********/
     .scroll-ind {
@@ -982,11 +982,12 @@ textarea.input {
     }
 
     .display-contact-section {
+        padding: 0px;
         margin: 0px;
     }
 
     .display-contact-section .row {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
