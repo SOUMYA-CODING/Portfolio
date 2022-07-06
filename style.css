@@ -798,6 +798,10 @@ textarea.input {
         width: 150px;
     }
 
+    .menu-btn{
+        color: #fff;
+    }
+
 
     /********** Home Page **********/
     .home-page {
