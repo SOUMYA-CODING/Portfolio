@@ -785,7 +785,7 @@ textarea.input {
 
 /********** Responsive Page **********/
 /* width: 600px  mobile*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 850px) {
 
     /********** Mouse Scroll **********/
     .scroll-ind {
@@ -837,7 +837,7 @@ textarea.input {
 
     .display-about-section {
         position: relative;
-        margin: 10% 15px;
+        margin: 17% 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -871,7 +871,7 @@ textarea.input {
 
     .display-service-section {
         position: relative;
-        margin: 10% 15px;
+        margin: 17% 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -913,7 +913,7 @@ textarea.input {
 
     .display-skill-section {
         position: relative;
-        margin: 10% 15px;
+        margin: 17% 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -939,7 +939,7 @@ textarea.input {
 
     .display-projects-section {
         position: relative;
-        margin: 10% 15px;
+        margin: 17% 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -960,7 +960,7 @@ textarea.input {
 
     .display-contact-section {
         padding: 0px;
-        margin: 0px;
+        margin: 20% 0px;
     }
 
     .display-contact-section .row {
