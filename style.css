@@ -92,16 +92,6 @@ header.sticky {
     color: #fff;
 }
 
-.menu {
-    display: none;
-}
-
-.menu .fa-solid {
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-}
-
 
 /********** Home Page **********/
 .home-page {
@@ -803,14 +793,6 @@ textarea.input {
 
 
     /********** Header Nav Bar Section **********/
-    .div-link {
-        display: none;
-    }
-
-    .menu {
-        display: block;
-    }
-
     .navbar img {
         width: 150px;
     }
