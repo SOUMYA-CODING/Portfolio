@@ -119,7 +119,7 @@ header.sticky {
     color: #fff;
 }
 
-.display-home-section h3 {
+.display-home-section h1 {
     text-transform: uppercase;
     color: orange;
     font-size: 65px;
@@ -827,7 +827,7 @@ textarea.input {
         color: #fff;
     }
 
-    .display-home-section h3 {
+    .display-home-section h1 {
         text-transform: uppercase;
         color: orange;
         font-size: 22px;
