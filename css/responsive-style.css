@@ -1,0 +1,193 @@
+@media only screen and (max-width: 480px) {
+
+    /********** Home Page **********/
+    /********** Header **********/
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar {
+        background-color: #111111;
+    }
+
+    #home-page {
+        height: auto;
+        background-image: url('../Assets/bg_mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home-page-body {
+        padding: 55% 15px;
+    }
+
+    .home-page-body h4 {
+        font-size: 20px;
+    }
+
+    .home-page-body p {
+        font-size: 16px;
+    }
+
+    .home-page-body h1 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    .btn-home {
+        padding: 10px 20px;
+        background: #00000000;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .btn-home:hover {
+        box-shadow: 1px 1px 8px 1px #fff;
+        color: #fff;
+    }
+
+
+    /********** Mouse Scroll **********/
+    .scroll-ind {
+        display: none;
+    }
+
+
+    /********** About Page **********/
+    #about-page {
+        height: auto;
+    }
+
+    .about-page-body {
+        padding: 12% 15px;
+    }
+
+    .about-page-body img {
+        width: 200px;
+    }
+
+    .about-me-description p {
+        font-size: 14px;
+    }
+
+    .btn-group a {
+        padding: 5px 25px;
+        margin-right: 5px;
+        border-radius: 5px;
+    }
+
+
+    /********** Skill Page **********/
+    #skill-page {
+        height: auto;
+    }
+
+    .skill-page-body {
+        padding: 17% 15px;
+    }
+
+    .skill-page-body img {
+        width: 200px;
+    }
+
+
+    /********** Service Page **********/
+    #service-page {
+        height: auto;
+    }
+
+    .service-page-body {
+        padding: 17% 15px;
+    }
+
+    .service-page-body .card {
+        height: 300px;
+    }
+
+    .des-head {
+        font-size: 16px;
+    }
+
+    .card-description i {
+        font-size: 24px;
+    }
+
+
+    /********** Projects Page **********/
+    #projects-page {
+        height: auto;
+    }
+
+    .project-page-body {
+        padding: 17% 15px;
+    }
+
+    .project-page-body .card {
+        min-height: 300px;
+    }
+
+    /********** Contact Page **********/
+    #contact-page {
+        height: auto;
+    }
+
+    .contact-page-body {
+        padding: 17% 15px;
+    }
+
+    .contact-page-body .row {
+        width: 100%;
+        height: auto;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .text{
+        font-size: 14px;
+    }
+
+    .information {
+        display: block;
+        font-size: 13px;
+    }
+
+    .information p {
+        margin: 0;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .display-contact-section .row .col{
+        width: 100%;
+    }
+
+    .display-contact-section .row .col:nth-child(1) {
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .display-contact-section .row .col:nth-child(2) {
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    .display-contact-section .row .col:nth-child(2)::before {
+        top: -13px;
+        left: initial;
+        right: 70px;
+    }
+}
