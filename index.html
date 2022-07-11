@@ -97,11 +97,11 @@
     <div id="about-page">
         <!-- About Page Body -->
         <div class="about-page-body">
-            <div class="row justify-content-between align-items-center" data-aos="fade-right">
-                <div class="col d-flex justify-content-center">
+            <div class="row justify-content-between align-items-center">
+                <div class="col d-flex justify-content-center" data-aos="zoom-in">
                     <img src="assets/profile_img.png" alt="SAM CODING. | Soumya Prakash Sahu Personal Portfolio | Full Stack Developerr"/>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in">
                     <div class="row mb-3">
                         <div class="col about-me-description">
                             <h2 class="headline-text">About Me</h2>
@@ -129,15 +129,15 @@
     <div id="skill-page">
         <!-- Service Page Body -->
         <div class="skill-page-body">
-            <div class="row justify-content-between align-items-center" data-aos="fade-right">
-                <div class="col d-flex justify-content-center">
+            <div class="row justify-content-between align-items-center">
+                <div class="col d-flex justify-content-center" data-aos="zoom-in">
                     <img src="Assets/languages_img.png" alt="SAM CODING. | Soumya Prakash Sahu Personal Portfolio | Full Stack Developerr | Programming Languages">
                 </div>
-                <div class="col">
+                <div class="col"">
                     <div class="row">
                         <div class="col">
-                            <h2 class="headline-text">Skills</h2>
-                            <div class="accordion accordion-flush" id="accordionExample">
+                            <h2 class="headline-text" data-aos="zoom-in">Skills</h2>
+                            <div class="accordion accordion-flush" id="accordionExample" data-aos="zoom-in">
                                 <div class="accordion-item mb-1">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -338,8 +338,8 @@
     <div id="service-page">
         <!-- Service Page Body -->
         <div class="service-page-body">
-            <h2 class="headline-text">Service</h2>
-            <p class="des-head">
+            <h2 class="headline-text" data-aos="zoom-in">Service</h2>
+            <p class="des-head" data-aos="zoom-in">
                 A responsive design makes your website accessible to all users,<br />
                 regardless of their devices.  
             </p>
@@ -393,7 +393,7 @@
         <div class="project-page-body">
             <div class="row">
                 <div class="col">
-                    <h2 class="headline-text">Recent Projects</h2>
+                    <h2 class="headline-text" data-aos="zoom-in">Recent Projects</h2>
                     <div class="row">
                         <div class="col-lg-4 mb-4">
                             <div class="card p-2" id="project-card-1" data-aos="zoom-in"> 
@@ -508,29 +508,29 @@
                     </div>
                 </div>
                 <div class="col">
-                    <form action="index.html" autocomplete="off">
+                    <form autocomplete="off" id="form">
                         <h3 class="title-2">Contact me</h3>
                         <div class="input-container">
-                            <input type="text" name="name" class="input" />
-                            <label for="">Username</label>
-                            <span>Username</span>
+                            <input type="text" name="from_name" class="input" id="from_name" />
+                            <label for="">Name</label>
+                            <span>Name</span>
                         </div>
                         <div class="input-container">
-                            <input type="email" name="email" class="input" />
+                            <input type="email" name="from_email" class="input" id="from_email"/>
                             <label for="">Email</label>
                             <span>Email</span>
                         </div>
                         <div class="input-container">
-                            <input type="tel" name="phone" class="input" />
+                            <input type="tel" name="phone_number" class="input" id="phone_number"/>
                             <label for="">Phone</label>
                             <span>Phone</span>
                         </div>
                         <div class="input-container textarea">
-                            <textarea name="message" class="input"></textarea>
+                            <textarea name="message" class="input" id="message"></textarea>
                             <label for="">Message</label>
                             <span>Message</span>
                         </div>
-                        <button class="send-btn">
+                        <button class="send-btn" id="send_message_btn">
                             Send &nbsp;<i class="fa-solid fa-paper-plane"></i>
                         </button>
                     </form>
@@ -566,5 +566,9 @@
             duration: 1000,
         });
     </script>
+
+    <!-- E-mail JS CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('dnbVopxeOEOG_zWGa') </script>
 </body>
 </html>
