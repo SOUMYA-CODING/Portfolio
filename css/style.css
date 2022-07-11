@@ -47,12 +47,22 @@ a {
 }
 
 .headline-text {
+    position: relative;
     color: #bdc3c7;
     text-align: left;
     margin-bottom: 25px;
     letter-spacing: 2px;
     line-height: 1.5em;
-    padding-bottom: 5px;
+}
+
+.headline-text::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background-color: #f7b733;
 }
 
 
@@ -570,12 +580,12 @@ a {
     height: auto;
 }
 
-.contact-page-body .col:nth-child(1){
+.contact-page-body .col:nth-child(1) {
     background-color: white;
     padding: 2rem;
 }
 
-.contact-page-body .col:nth-child(2){
+.contact-page-body .col:nth-child(2) {
     background-color: royalblue;
     padding: 2rem;
 }
