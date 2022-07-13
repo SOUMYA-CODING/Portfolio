@@ -74,7 +74,7 @@
         padding: 8% 40px;
     }
 
-    .about-page-body .row{
+    .about-page-body .row {
         display: flex;
         flex-direction: column;
     }
@@ -103,7 +103,7 @@
         padding: 8% 40px;
     }
 
-    .skill-page-body .row{
+    .skill-page-body .row {
         display: flex;
         flex-direction: column;
     }
@@ -162,11 +162,11 @@
         height: auto;
     }
 
-    .title{
+    .title {
         font-size: 20px;
     }
 
-    .text{
+    .text {
         font-size: 14px;
     }
 
@@ -183,7 +183,7 @@
         font-size: 20px;
     }
 
-    .display-contact-section .row .col{
+    .display-contact-section .row .col {
         width: 100%;
     }
 
@@ -278,7 +278,7 @@
         padding: 8% 40px;
     }
 
-    .about-page-body .row{
+    .about-page-body .row {
         display: flex;
         flex-direction: column;
     }
@@ -307,7 +307,7 @@
         padding: 8% 40px;
     }
 
-    .skill-page-body .row{
+    .skill-page-body .row {
         display: flex;
         flex-direction: column;
     }
@@ -366,11 +366,11 @@
         height: auto;
     }
 
-    .title{
+    .title {
         font-size: 20px;
     }
 
-    .text{
+    .text {
         font-size: 14px;
     }
 
@@ -387,7 +387,7 @@
         font-size: 20px;
     }
 
-    .display-contact-section .row .col{
+    .display-contact-section .row .col {
         width: 100%;
     }
 
@@ -560,11 +560,11 @@
         height: auto;
     }
 
-    .title{
+    .title {
         font-size: 20px;
     }
 
-    .text{
+    .text {
         font-size: 14px;
     }
 
@@ -581,7 +581,7 @@
         font-size: 20px;
     }
 
-    .display-contact-section .row .col{
+    .display-contact-section .row .col {
         width: 100%;
     }
 

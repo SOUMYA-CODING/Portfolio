@@ -55,7 +55,7 @@ a {
     line-height: 1.5em;
 }
 
-.headline-text::before{
+.headline-text::before {
     content: "";
     position: absolute;
     left: 0;
